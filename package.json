@@ -1,0 +1,21 @@
+{
+  "name": "feature-es6",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "arrow":    "babel ./src/arrow.js -o ./bundle.js",
+    "class":    "babel ./src/class.js -o ./bundle.js",
+    "destruct":  "babel ./src/destructuring.js -o ./bundle.js",
+    "loop":     "babel ./src/loop.js -o ./bundle.js",
+    "spread":   "babel ./src/rest-spread.js -o ./bundle.js",
+    "template": "babel ./src/template-literals.js -o ./bundle.js",
+    "oss":      "babel ./src/object-short-syntax.js -o ./bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
